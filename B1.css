@@ -1,0 +1,222 @@
+body {
+    background-color: black;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.box12
+
+/* Box12 */
+    {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    min-width: 0px;
+    width: 2505px !important;
+    max-width: 933px;
+    min-height: 809px;
+    max-height: 1250px;
+    
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 5px;
+    background-color: #666666;
+    background-image: none;
+    opacity: 1;
+    float: none;
+    display: grid;
+    column-gap: 7px;
+    row-gap: 0px;
+    grid-template-columns: 25% 25% 25% 25% !important;
+    justify-content: center;
+    align-content: stretch;
+    grid-template-rows: auto;
+    visibility: visible;
+    pointer-events: auto;
+    top: -4px;
+    margin-left: 70px;
+    margin-right: 14px;
+    padding-left: 11px;
+    padding-top: 0px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.side {
+    height: fit-content;
+
+    display: grid;
+    grid-template-rows: repeat(10, 20%);
+    grid-row-end: 9px;
+    margin-right: 2px;
+}
+
+.box12 {
+    color: yellow;
+
+}
+
+img {
+    /* Image */
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    min-width: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    z-index: 279;
+    top: -200px;
+    bottom: -200px;
+    transform: rotateX(-28deg) translatex(-3px);
+    width: 250px;
+    height: 90px;
+    display: inline-block;
+    position: sticky;
+    top: 0px;
+    box-shadow: 8px -3px 50px -3px #fefafb;
+}
+
+.R1 {
+    grid-column: 1/4;
+    background-color: #35f24e;
+    width: 953px;
+    height: 38px;
+    color: #fefafb;
+    border-bottom: 2px solid blue;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.IN {
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 14px;
+    margin-top: 10px;
+    width: 385px;
+    height: 20px;
+    box-shadow: 0px 0px 7px 0px #8a7e7e inset;
+    background-color: #ffffff;
+}
+
+.SI {
+    width: 83px;
+    height: 25px;
+    padding-top: 0px;
+    padding-bottom: 4px;
+    margin-top: 12px;
+    margin-bottom: -50px;
+    margin-right: 151px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 17px;
+}
+
+.na {
+    margin-top: -1px;
+    margin-left: 48px;
+    margin-bottom: -50px;
+    padding-left: 1px;
+    padding-right: 0px;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+.serach:active {
+    box-shadow: 0px 0px 7px 0px #fcf80a inset;
+}
+
+ul {
+    box-shadow: 0px 0px 35px 1px #65ffd1;
+    margin-top: 40px;
+    margin-bottom: 96px;
+    height: 250px;
+}
+
+.side {
+    transform: translatex(0px) translatey(0px);
+    display: inline-block;
+}
+
+.sidelinklist {
+    margin-top: 27px;
+    margin-left: 4px;
+    padding-left: 7px;
+}
+
+.SLl {
+    list-style: none;
+}
+
+.R2 {
+    justify-content: center;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    column-gap: 10px;
+
+}
+
+.mbox {
+    justify-content: center;
+    
+    margin-left: 10px;
+    
+    min-height: 221px;
+    width: 224px;
+    padding-left: 0px;
+    height: 247px;
+    overflow: auto;
+    margin-left: 55px;
+    margin-bottom: 41px;
+    height:265px;
+}
+
+.ooo {
+    justify-content: center;
+    width: 163px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    min-height: 173px;
+    margin-left: 36px;
+}
+
+#main {
+    animation: main 10s infinite;
+}
+
+@keyframes main {
+    0% {
+        box-shadow: 0px 0px 34px 12px #35f24e;
+    }
+
+    25% {
+        box-shadow: 0px 0px 34px 12px #ffee06;
+    }
+
+    50% {
+        box-shadow: 0px 0px 34px 12px #0040ffdc;
+    }
+
+    75% {
+        box-shadow: 0px 0px 34px 12px #00fffb;
+    }
+
+    100% {
+        box-shadow: 0px 0px 34px 12px #35f24e;
+    }
+}

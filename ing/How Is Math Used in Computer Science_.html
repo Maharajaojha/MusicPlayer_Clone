@@ -1,0 +1,1821 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>How Is Math Used in Computer Science?</title>
+    <link rel="shortcut icon" href="https://blog.edx.org/hubfs/favicon-1.ico">
+    <meta name="description" content="Find out how much math you need to excel in computer science, and what the best steps are for getting started.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "How Is Math Used in Computer Science?",
+      "image": ["https://programs.edx.org/hubfs/How%20Is%20Math%20Used%20In%20Computer%20Science.png"],
+      "datePublished": "2021-11-03T15:36:18+00:00",
+      "dateModified": "2021-11-03T15:36:18+00:00",
+      "author": {
+        "@type": "Person",
+        "name": "edX team",
+        "url": "https://blog.edx.org/author/edx-team"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "edX",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://business.edx.org/hubfs/theme%202021/header/assets/images/Logo.svg"
+        }
+      }
+    }
+    </script>
+    <link rel="alternate" hreflang="en">
+    
+    
+    
+    
+    
+    
+    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+    <script src="/hs/hsstatic/jquery-libs/static-1.1/jquery/jquery-1.7.1.js"></script>
+<script>hsjQuery = window['jQuery'];</script>
+    <meta property="og:description" content="Find out how much math you need to excel in computer science, and what the best steps are for getting started.">
+    <meta property="og:title" content="How Is Math Used in Computer Science?">
+    <meta name="twitter:description" content="Find out how much math you need to excel in computer science, and what the best steps are for getting started.">
+    <meta name="twitter:title" content="How Is Math Used in Computer Science?">
+
+    
+
+    
+
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/template_assets/41376883784/1620222428982/edX_Theme_2021/css/blog.min.css">
+
+<style>
+
+.blog-topics-boxes .blog-post__tags .blog-post__tag-link:hover {
+background: #00262B;
+color: #fff;
+}
+
+.related-item {
+background-color: #fff;
+border: 1px solid #D3D3D3;
+border-radius: 2px;
+}
+
+.related-item .item_recent-content .item-link a{
+display: inline-flex;
+align-items: center;
+
+}
+
+
+.related-item .topic-link{
+  font-size: 16px;
+  margin:0px 0px 16px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.related-item .topic-link{
+      display: none;
+}
+
+
+ul.breadcrumb li a {
+  color: #002226;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #0D7193;
+  text-decoration: underline;
+}
+
+ul.breadcrumb li {
+color: #454545;
+font-family: 'Space Mono',monospace;
+}
+
+ul.breadcrumb li+li:before {
+  color: #454545;
+}
+
+.breadcrumb {
+background-color: #fff !important;
+}
+
+
+@media (min-width:768px){
+
+.related-container{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: stretch;
+-ms-flex-align: stretch;
+align-items: stretch;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+}
+
+
+
+.related-item:nth-child(3n+1) {
+-ms-flex-preferred-size: 31% !important;
+flex-basis: 31% !important;
+width: 31% !important;
+margin-right: 1%;
+margin-left: 0%;
+margin-bottom: 2%;
+}
+
+.related-item:nth-child(3n+2) {
+-ms-flex-preferred-size: 31% !important;
+flex-basis: 31% !important;
+width: 31% !important;
+margin-right: 1%;
+margin-left: 1%;
+margin-bottom: 2%;
+}
+
+.related-item:nth-child(3n+3){
+-ms-flex-preferred-size: 31% !important;
+flex-basis: 31% !important;
+width: 31% !important;
+margin-right: 0%;
+margin-left: 1%;
+margin-bottom: 2%;
+}
+
+.related_item_topic {
+background-color: white;
+padding: 20px 20px 20px !important;
+}
+
+
+.related-item .related_item_image img{
+object-fit: cover; /* Do not scale the image */
+object-position: center; /* Center the image within the element */
+height: 200px !important;
+border-radius: 2px 2px 0px 0px;
+width: 100%;
+}
+
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: .75rem !important;
+  line-height: 1.5rem;
+}
+
+
+ul.breadcrumb {
+  padding: 10px opx;
+  list-style: none;
+}
+
+ul.breadcrumb li+li:before {
+  padding-bottom: 2px !important;
+padding-top: 2px !important;
+padding-left: 2px !important;
+  padding-right: 2px !important;
+  content: "/\00a0";
+}
+
+
+
+}
+
+
+
+
+@media (max-width:767px){
+
+
+
+.related-item {
+margin-bottom: 5%;
+}
+
+.related-item .related_item_image img{
+width: 100%;
+}
+
+.related_item_topic {
+background-color: white;
+padding: 10px 20px 10px !important;
+}
+
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: .7rem;
+  line-height: .8rem;
+}
+
+ul.breadcrumb li a {
+  display: inline;
+  font-size: .7rem;
+  line-height: .8rem;
+}
+
+
+ul.breadcrumb {
+  padding: 5px 0px;
+  list-style: none;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 2px;
+  content: "/\00a0";
+}
+
+
+}
+
+
+</style>
+
+
+<style amp-custom>
+
+.logo-header-text  {
+font-size: 2em !important;
+line-height: 1 !important;
+}
+
+</style>
+
+<link rel="stylesheet" href="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/template_assets/41359162323/1622818885042/edX_Theme_2021/css/main.min.css">
+<link rel="stylesheet" href="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/template_assets/41873664133/1660838702362/edX_Theme_2021/css/resources.min.css">
+<link rel="stylesheet" href="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/template_assets/42032463224/1660838669200/edX_Theme_2021/css/resources-webpage.min.css">
+<link rel="stylesheet" href="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/template_assets/41359108174/1663773494851/edX_Theme_2021/css/theme-overrides.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono&amp;display=swap">
+<link rel="stylesheet" href="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/module_assets/43345837867/1643656708760/module_43345837867_site_header_blog.min.css">
+
+<style>
+
+.special-announcement {
+text-align: center;
+}
+
+.special-announcement p {
+font-size: 14px !important;
+}
+
+.special-bg-blue {
+background-color: #03C7E8 !important;
+}
+
+.special-bg-red {
+background-color: #D23228 !important;
+}
+
+.special-bg-yellow {
+background-color: #F0CC00 !important;
+}
+
+.special-bg-elm {
+background-color: #00262B !important;
+}
+
+
+.special-bg-yellow p, .special-bg-blue p, .special-bg-yellow a, .special-bg-blue a {
+color: #000 !important;
+}
+
+.special-bg-red p, .special-bg-elm p, .special-bg-red a, .special-bg-elm a {
+color: #fff !important;
+}
+
+</style>
+
+<link rel="stylesheet" href="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/module_assets/42895225178/1644005254419/module_42895225178_site_footer_v2.min.css">
+<link rel="stylesheet" href="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/module_assets/52077186190/1629212413653/module_52077186190_Blog_-_Related_Courses_-_Custom.min.css">
+
+<style>
+
+.about-text {
+margin-bottom: 5%;
+}
+
+
+@media (min-width:768px){
+
+.about-text {
+-ms-flex-preferred-size: 60% !important;
+flex-basis: 60% !important;
+width: 60% !important;
+margin-right: 2%;
+}
+
+.course-details {
+-ms-flex-preferred-size: 35% !important;
+flex-basis: 35% !important;
+width: 35% !important;
+margin-left: 3%;
+margin-bottom: 2%;
+}
+
+
+}
+
+
+@media (max-width:767px){
+
+
+
+}
+
+</style>
+
+
+    
+
+
+    
+<!--  Added by GoogleTagManager integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+
+var hsLoadGtm = function loadGtm() {
+    if(window._hsGtmLoadOnce) {
+      return;
+    }
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PLVRLF');
+
+    window._hsGtmLoadOnce = true;
+};
+
+var useGoogleConsentMode = false;
+
+if (!useGoogleConsentMode){
+    _hsp.push(['addPrivacyConsentListener', function(consent){
+      if(consent.allowed || (consent.categories && consent.categories.analytics)){
+        hsLoadGtm();
+      }
+  }]);
+} else{
+    if(!window._hsGoogleConsentRunOnce){
+      window._hsGoogleConsentRunOnce=true;
+
+      window.dataLayer=window.dataLayer||[];
+      function gtag(){dataLayer.push(arguments);}
+
+      gtag('consent','default',{
+        'ad_storage':'denied',
+        'analytics_storage':'denied'
+      });
+
+      gtag('set','developer_id.dZTQ1Zm',true);
+
+      _hsp.push(['addPrivacyConsentListener',function(consent){
+      var hasAnalyticsConsent=consent&&(consent.allowed||(consent.categories&&consent.categories.analytics));
+      var hasAdsConsent=consent&&(consent.allowed||(consent.categories&&consent.categories.advertisement));
+
+      gtag('consent','update',{
+        'ad_storage':hasAdsConsent?'granted':'denied',
+        'analytics_storage':hasAnalyticsConsent?'granted':'denied'
+      });
+    }]);
+  }
+
+  hsLoadGtm();
+}
+</script>
+
+<!-- /Added by GoogleTagManager integration -->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35248639-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-35248639-2');
+</script>
+
+
+
+<meta name="google-site-verification" content="EzSDMsQ1GXqUB9o1XXTSXegDLTemDScQBwQ8RYJkCco">
+
+<link rel="amphtml" href="https://blog.edx.org/how-is-math-used-in-computer-science?hs_amp=true">
+
+<meta property="og:image" content="https://blog.edx.org/hubfs/How%20Is%20Math%20Used%20In%20Computer%20Science.png#keepProtocol">
+<meta property="og:image:width" content="1120">
+<meta property="og:image:height" content="560">
+<meta property="og:image:alt" content="How is math used in computer science? A woman used a calculator and computer to perform math.">
+<meta name="twitter:image" content="https://blog.edx.org/hubfs/How%20Is%20Math%20Used%20In%20Computer%20Science.png#keepProtocol">
+<meta name="twitter:image:alt" content="How is math used in computer science? A woman used a calculator and computer to perform math.">
+
+<meta property="og:url" content="https://blog.edx.org/how-is-math-used-in-computer-science">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="canonical" href="https://blog.edx.org/how-is-math-used-in-computer-science">
+<meta name="google-site-verification" content="0Vtw22vNS0K8Mg7SGvKFfsmpvzAdbC8_3mnw8laf6wY">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/rss+xml" href="https://blog.edx.org/rss.xml">
+<meta name="twitter:domain" content="blog.edx.org">
+<script src="" type="text/javascript">
+    lang: en_US
+</script>
+
+<meta http-equiv="content-language" content="en">
+
+
+
+
+
+
+
+
+  <meta name="generator" content="HubSpot"></head>
+  <body class="  hs-content-id-58879402791 hs-blog-post hs-blog-id-37454551910  ">
+<!--  Added by GoogleTagManager integration -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLVRLF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <div data-global-resource-path="edX Theme 2021/templates/partials/header_blog.html"><div id="hs_cos_wrapper_module_161607018003332" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><nav class="navbar navbar-expand-lg navbar-light bg-white edx_nav p-0 shadow-sm">
+  <div class="wrapper">
+    <div class="row">
+      <div class="col-lg-2 col-md-3 col-sm-6 col-6 logo-main d-flex align-items-center">
+        <a href="https://www.edx.org/?hs-referral=nav-logo" class="navbar-brand font-weight-bold d-block">
+        
+                      
+                      
+                      
+                      
+                      
+                      <img src="https://blog.edx.org/hubfs/theme%202021/header/assets/images/Logo.svg" alt="Logo" loading="lazy" style="max-width: 100%; height: auto;">
+                      
+      </a>
+        
+      </div>
+      <div class="col-lg-10 col-md-9 col-sm-12 nav-col d-flex">
+        <div class="mmobile_bar" style="display:none;">
+          <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="https://www.edx.org/?hs-referral=nav-logo" class="navbar-brand font-weight-bold d-block">
+        
+                      
+                      
+                      
+                      
+                      
+                      <img src="https://blog.edx.org/hubfs/theme%202021/header/assets/images/Logo.svg" alt="Logo" loading="lazy" style="max-width: 100%; height: auto;">
+                      
+          </a>
+          <a class="desktop-search-link  icon-button small" href="https://www.edx.org/search?hs-referral=nav-menu-link">
+            <svg xmlns="https://www.w3.org/2000/svg" height="24" viewbox="0 0 24 24" width="24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"></path><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+          </a>
+        </div>
+        
+        <div id="navbarContent" class="collapse navbar-collapse">
+        <div class="mobile_cta-group" style="display:none;">
+          <a href="https://courses.edx.org/login?hs-referral=nav-menu-link" class="btn dark_btn btn-link w-50 first-focus" target="_blank"><span>Sign In</span></a>
+          <a href="https://courses.edx.org/register?hs-referral=nav-menu-link" class="btn red_btn btn-brand w-50" target="_blank"><span>Register</span></a>
+          </div>
+        <ul class="navbar-nav">
+          <!-- Megamenu-->
+          
+          <li class="nav-item navbar_nav-item item1 dropdown megamenu"><a id="megamneu" href="https://www.edx.org/search?tab=course&amp;hs-referral=blog-menu-link" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle main_links">Courses</a>
+            
+            <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+              <div class="container">
+                <div class="row main_row bg-white rounded-0 m-0 shadow-sm">
+                  <div class="col-lg-12 p-0">
+                    <div class="p-4">
+                      <div class="row">
+                        <div class="col-lg-12 menu_full-col">
+                          <div class="child_box-top">
+                            <h6 class="child_box-title"><a href="https://www.edx.org/subjects?hs-referral=blog-menu-link">Courses By Subject</a></h6>
+                            <div class="ctabox">
+                              <span id="hs_cos_wrapper_module_161607018003332_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="cta"><!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-397dbf7d-b274-48cd-8f2a-1e6e9949bbd9"><span class="hs-cta-node hs-cta-397dbf7d-b274-48cd-8f2a-1e6e9949bbd9" id="hs-cta-397dbf7d-b274-48cd-8f2a-1e6e9949bbd9"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/4982103/397dbf7d-b274-48cd-8f2a-1e6e9949bbd9" target="_blank" rel="noopener"><img class="hs-cta-img" id="hs-cta-img-397dbf7d-b274-48cd-8f2a-1e6e9949bbd9" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/4982103/397dbf7d-b274-48cd-8f2a-1e6e9949bbd9.png" alt="View All Courses"></a></span><script charset="utf-8" src="/hs/cta/cta/current.js"></script><script type="text/javascript"> hbspt.cta._relativeUrls=true;hbspt.cta.load(4982103, '397dbf7d-b274-48cd-8f2a-1e6e9949bbd9', {"useNewLoader":"true","region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code --></span>
+                            </div>
+                          </div>
+                        </div>
+                        
+                          <div class="col-lg-3 pr-0 small_links  child_box-bottom">
+                            <ul class="list-unstyled">
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/architecture?hs-referral=blog-menu-link" class="nav-link text-small pb-0">Architecture</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/art-culture?hs-referral=blog-menu-link" class="nav-link text-small pb-0">Art &amp; Culture</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/biology-life-sciences?hs-referral=blog-menu-link" class="nav-link text-small pb-0">Biology &amp; Life Sciences</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/business-management?hs-referral=blog-menu-link" class="nav-link text-small pb-0">Business &amp; Management</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/chemistry?hs-referral=blog-menu-link" class="nav-link text-small pb-0">Chemistry</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/communication?hs-referral=blog-menu-link" class="nav-link text-small pb-0">Communication</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/computer-science?hs-referral=blog-menu-link" class="nav-link text-small pb-0">Computer Science</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/data-science?hs-referral=blog-menu-link" class="nav-link text-small pb-0">Data Analysis &amp; Statistics</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/design?hs-referral=blog-menu-link" class="nav-link text-small pb-0">Design</a></li>
+                              
+                            </ul>
+                          </div>
+                        
+                          <div class="col-lg-3 pr-0 small_links  child_box-bottom">
+                            <ul class="list-unstyled">
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/economics-finance" class="nav-link text-small pb-0">Economics &amp; Finance</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/education-teacher-training" class="nav-link text-small pb-0">Education &amp; Teacher</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/education-teacher-training" class="nav-link text-small pb-0">Training</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/electronics" class="nav-link text-small pb-0">Electronics</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/energy-earth-sciences" class="nav-link text-small pb-0">Energy &amp; Earth Sciences</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/engineering" class="nav-link text-small pb-0">Engineering</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/environmental-studies" class="nav-link text-small pb-0">Environmental Studies</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/ethics" class="nav-link text-small pb-0">Ethics</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/food-nutrition" class="nav-link text-small pb-0">Food &amp; Nutrition</a></li>
+                              
+                            </ul>
+                          </div>
+                        
+                          <div class="col-lg-3 pr-0 small_links  child_box-bottom">
+                            <ul class="list-unstyled">
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/health-safety" class="nav-link text-small pb-0">Health &amp; Safety</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/history" class="nav-link text-small pb-0">History</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/humanities" class="nav-link text-small pb-0">Humanities</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/language" class="nav-link text-small pb-0">Language</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/law" class="nav-link text-small pb-0">Law</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/literature" class="nav-link text-small pb-0">Literature</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/math" class="nav-link text-small pb-0">Math</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/medicine" class="nav-link text-small pb-0">Medicine</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/music" class="nav-link text-small pb-0">Music</a></li>
+                              
+                            </ul>
+                          </div>
+                        
+                          <div class="col-lg-3 pr-0 small_links  child_box-bottom">
+                            <ul class="list-unstyled">
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/philanthropy" class="nav-link text-small pb-0">Philanthropy</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/philosophy-ethics" class="nav-link text-small pb-0">Philosophy &amp; Ethics</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/physics" class="nav-link text-small pb-0">Physics</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/science" class="nav-link text-small pb-0">Science</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/course/subject/social-sciences" class="nav-link text-small pb-0">Social Sciences</a></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/subjects" class="nav-link text-small pb-0">All Subjects</a></li>
+                              
+                            </ul>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+          </li>
+          
+          <li class="nav-item navbar_nav-item item2 dropdown megamenu"><a id="megamneu" href="https://www.edx.org/search?tab=program" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle main_links"><span class="link-des">Programs &amp; Degrees</span><span class="link-mob" style="display:none;">Programs</span></a>
+            
+            <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+              <div class="container">
+                <div class="row main_row bg-white rounded-0 m-0 shadow-sm">
+                  <div class="col-lg-12 p-0">
+                    <div class="p-4">
+                      <div class="row">
+                        <div class="col-lg-12 menu_full-col">
+                          <div class="child_box-top">
+                            <h6 class="child_box-title"><a href="?hsLang=en">Pathways For Your Advancement</a></h6>
+                            <div class="ctabox">
+                              <span id="hs_cos_wrapper_module_161607018003332_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="cta"><!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-c6b7090b-62b8-4a28-ba11-0796bfd6f73b"><span class="hs-cta-node hs-cta-c6b7090b-62b8-4a28-ba11-0796bfd6f73b" id="hs-cta-c6b7090b-62b8-4a28-ba11-0796bfd6f73b"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/4982103/c6b7090b-62b8-4a28-ba11-0796bfd6f73b" target="_blank" rel="noopener"><img class="hs-cta-img" id="hs-cta-img-c6b7090b-62b8-4a28-ba11-0796bfd6f73b" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/4982103/c6b7090b-62b8-4a28-ba11-0796bfd6f73b.png" alt="Compare Programs"></a></span><script charset="utf-8" src="/hs/cta/cta/current.js"></script><script type="text/javascript"> hbspt.cta._relativeUrls=true;hbspt.cta.load(4982103, 'c6b7090b-62b8-4a28-ba11-0796bfd6f73b', {"useNewLoader":"true","region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code --></span>
+                            </div>
+                          </div>
+                        </div>
+                        
+                          <div class=" col-lg-12 fullwidth_links child_box-bottom">
+                            <ul class="list-unstyled">
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/microbachelors" class="nav-link text-small pb-0">MicroBachelors Program</a><span>Undergraduate-level, for career advancement or a degree path</span></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/micromasters" class="nav-link text-small pb-0">MicroMasters Program</a><span>Graduate-level, for career advancement or a degree path</span></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/boot-camps" class="nav-link text-small pb-0">Boot Camps</a><span>Intensive, hands-on, project-based training</span></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/professional-certificate" class="nav-link text-small pb-0">Professional Certificate</a><span>From employers or universities to build today's in-demand skills</span></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/executive-education" class="nav-link text-small pb-0">Executive Education</a><span>Short courses to adapt and advance leaders</span></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/xseries" class="nav-link text-small pb-0">XSeries</a><span>Series of courses for a deep understanding of a topic</span></li>
+                              
+                              <li class="nav-item"><a href="https://www.edx.org/masters" class="nav-link text-small pb-0">Online Master's Degree</a><span>Top-ranked programs, affordable, and fully online</span></li>
+                              
+                            </ul>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+          </li>
+          
+          <li class="nav-item navbar_nav-item item3 "><a href="https://www.edx.org/masters?hs-referral=blog-menu-link" class="nav-link  main_links"><span class="link_show_mob" style="display:none;">Online Master's Degrees </span></a>
+            
+          </li>
+          
+          <li class="nav-item navbar_nav-item item4 "><a href="https://www.edx.org/schools-partners?hs-referral=blog-menu-link" class="nav-link  main_links">Schools &amp; Partners</a>
+            
+          </li>
+          
+          <li class="nav-item navbar_nav-item item5 "><a href="https://business.edx.org/?utm_campaign=edX%20Blog&amp;utm_source=blog.edx.org&amp;utm_medium=Top-Link&amp;hsLang=en" class="nav-link  main_links">edX for Business </a>
+            
+          </li>
+          
+        </ul>
+      </div>
+        <div class="menuright_desk d-flex justify-content-center align-items-center">
+          <a class="desktop-search-link ml-4 mr-1 icon-button small" href="https://www.edx.org/search?hs-referral=nav-menu-link">
+            <svg xmlns="https://www.w3.org/2000/svg" height="24" viewbox="0 0 24 24" width="24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"></path><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+          </a>
+          <div>
+            <nav class="user-cta d-flex align-items-center">
+            <a class="btn btn-link text-muted dropdown-item" href="https://courses.edx.org/login?hs-referral=nav-menu-link" target="_blank">
+              <span>Sign In</span>
+            </a>
+            <a class="btn btn-brand skew-forward mx-1" href="https://courses.edx.org/register?hs-referral=nav-menu-link" target="_blank">
+              <div class="skew-back"><span>Register</span>
+              </div>
+            </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+     </div>
+  </div>
+</nav></div>
+
+<div id="hs_cos_wrapper_module_1637165108765109" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+</div></div>
+   
+
+
+
+
+
+
+
+<div id="hs_cos_wrapper_module_161736872737224" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><!-- Tags Bar -->
+<div class="topic-container dark-bkg">
+<div class="topic-wrapper container d-flex justify-content-between">
+<div class="topic-links p-0 left col-md-6 d-flex justify-content-start">
+ 
+ <div class="tag-link">
+
+
+
+
+
+<a href="https://blog.edx.org/">
+ <strong style="font-size: 24px;">edX Blog</strong>
+</a>
+</div>
+
+ <div class="tag-link">
+
+
+
+
+
+<a href="https://blog.edx.org/tag/career">
+Careers &amp; Skills
+</a>
+</div>
+
+ <div class="tag-link">
+
+
+
+
+
+<a href="https://blog.edx.org/tag/stories">
+Stories
+</a>
+</div>
+
+ <div class="tag-link">
+
+
+
+
+
+<a href="https://blog.edx.org/tag/learning-online">
+Learning Online
+</a>
+</div>
+
+
+</div>
+
+
+<div class="topic-links p-0 right col-md-6 d-flex justify-content-end">
+
+<div class="tag-link">
+
+
+
+
+
+<a href="https://press.edx.org/?hs-referral=edX%20Blog&amp;hsLang=en">
+Newsroom
+</a>
+</div>
+
+<div class="tag-link">
+
+
+
+
+
+<a href="https://business.edx.org/blog?hs-referral=edX%20Blog&amp;hsLang=en">
+edX For Business
+</a>
+</div>
+
+<div class="tag-link">
+
+
+
+
+
+<a href="https://campus.edx.org/resources?hs-referral=edX%20Blog&amp;hsLang=en">
+edX For Education
+</a>
+</div>
+
+
+
+</div>
+
+</div>
+</div></div>
+ <div class="topic-container-mobile">
+
+    <select id="blog-topics">
+      <option>edX Blog</option>
+      
+        <option value="https://blog.edx.org/tag/learner-news">Learner News</option>
+      
+        <option value="https://blog.edx.org/tag/career">Career</option>
+      
+        <option value="https://blog.edx.org/tag/stories">Stories</option>
+      
+        <option value="https://blog.edx.org/tag/mitx">mitx</option>
+      
+        <option value="https://blog.edx.org/tag/moocs">MOOCs</option>
+      
+        <option value="https://blog.edx.org/tag/computer-science">Computer Science</option>
+      
+        <option value="https://blog.edx.org/tag/business-management">Business Management</option>
+      
+        <option value="https://blog.edx.org/tag/learning-online">Learning Online</option>
+      
+        <option value="https://blog.edx.org/tag/micromasters-programs">MicroMasters Programs</option>
+      
+        <option value="https://blog.edx.org/tag/harvardx">harvardx</option>
+      
+        <option value="https://blog.edx.org/tag/masters-degrees">Master's Degrees</option>
+      
+        <option value="https://blog.edx.org/tag/data-science">Data Science</option>
+      
+        <option value="https://blog.edx.org/tag/education">Education</option>
+      
+        <option value="https://blog.edx.org/tag/berkeleyx">berkeleyx</option>
+      
+        <option value="https://blog.edx.org/tag/programming">programming</option>
+      
+        <option value="https://blog.edx.org/tag/coding">coding</option>
+      
+        <option value="https://blog.edx.org/tag/open-edx">Open edX</option>
+      
+        <option value="https://blog.edx.org/tag/edx">edx</option>
+      
+        <option value="https://blog.edx.org/tag/engineering">Engineering</option>
+      
+        <option value="https://blog.edx.org/tag/professional-certificate-programs">Professional Certificate Programs</option>
+      
+        <option value="https://blog.edx.org/tag/supply-chain">Supply Chain</option>
+      
+        <option value="https://blog.edx.org/tag/edx-insider">edX Insider</option>
+      
+        <option value="https://blog.edx.org/tag/edx-in-the-news">edX in the News</option>
+      
+        <option value="https://blog.edx.org/tag/marketing">Marketing</option>
+      
+        <option value="https://blog.edx.org/tag/trends">Trends</option>
+      
+        <option value="https://blog.edx.org/tag/uqx">UQx</option>
+      
+        <option value="https://blog.edx.org/tag/python">python</option>
+      
+        <option value="https://blog.edx.org/tag/learner-stories">Learner Stories</option>
+      
+        <option value="https://blog.edx.org/tag/tips">tips</option>
+      
+        <option value="https://blog.edx.org/tag/microsoft">Microsoft</option>
+      
+        <option value="https://blog.edx.org/tag/ut-austin">UT Austin</option>
+      
+        <option value="https://blog.edx.org/tag/communication">communication</option>
+      
+        <option value="https://blog.edx.org/tag/news">news</option>
+      
+        <option value="https://blog.edx.org/tag/microbachelors-programs">MicroBachelors Programs</option>
+      
+        <option value="https://blog.edx.org/tag/nyux">NYUx</option>
+      
+        <option value="https://blog.edx.org/tag/cybersecurity">cybersecurity</option>
+      
+        <option value="https://blog.edx.org/tag/entrepreneurship">entrepreneurship</option>
+      
+        <option value="https://blog.edx.org/tag/leadership">leadership</option>
+      
+        <option value="https://blog.edx.org/tag/ritx">ritx</option>
+      
+        <option value="https://blog.edx.org/tag/boston-university">Boston University</option>
+      
+        <option value="https://blog.edx.org/tag/finance-and-economics">Finance and Economics</option>
+      
+        <option value="https://blog.edx.org/tag/usmx">USMx</option>
+      
+        <option value="https://blog.edx.org/tag/mba">mba</option>
+      
+        <option value="https://blog.edx.org/tag/ap">AP</option>
+      
+        <option value="https://blog.edx.org/tag/resources">Resources</option>
+      
+        <option value="https://blog.edx.org/tag/writing">writing</option>
+      
+        <option value="https://blog.edx.org/tag/purdue">Purdue</option>
+      
+        <option value="https://blog.edx.org/tag/umd">UMD</option>
+      
+        <option value="https://blog.edx.org/tag/edx-news">edX News</option>
+      
+        <option value="https://blog.edx.org/tag/edx-prize">edX Prize</option>
+      
+        <option value="https://blog.edx.org/tag/management">management</option>
+      
+        <option value="https://blog.edx.org/tag/science">science</option>
+      
+        <option value="https://blog.edx.org/tag/asux">ASUx</option>
+      
+        <option value="https://blog.edx.org/tag/gtx">GTx</option>
+      
+        <option value="https://blog.edx.org/tag/tumx">TUMx</option>
+      
+        <option value="https://blog.edx.org/tag/analytics">analytics</option>
+      
+        <option value="https://blog.edx.org/tag/human-rights">human rights</option>
+      
+        <option value="https://blog.edx.org/tag/new-member">new member</option>
+      
+        <option value="https://blog.edx.org/tag/physics">physics</option>
+      
+        <option value="https://blog.edx.org/tag/project-management">project management</option>
+      
+        <option value="https://blog.edx.org/tag/uq">uq</option>
+      
+        <option value="https://blog.edx.org/tag/data-analysis">Data Analysis</option>
+      
+        <option value="https://blog.edx.org/tag/doanex">Doanex</option>
+      
+        <option value="https://blog.edx.org/tag/featured-article">Featured Article</option>
+      
+        <option value="https://blog.edx.org/tag/global-forum">Global Forum</option>
+      
+        <option value="https://blog.edx.org/tag/global-freshman-academy">Global Freshman Academy</option>
+      
+        <option value="https://blog.edx.org/tag/biology">biology</option>
+      
+        <option value="https://blog.edx.org/tag/chemistry">chemistry</option>
+      
+        <option value="https://blog.edx.org/tag/climate-change">climate change</option>
+      
+        <option value="https://blog.edx.org/tag/english">english</option>
+      
+        <option value="https://blog.edx.org/tag/java">java</option>
+      
+        <option value="https://blog.edx.org/tag/law">law</option>
+      
+        <option value="https://blog.edx.org/tag/literature">literature</option>
+      
+        <option value="https://blog.edx.org/tag/math">math</option>
+      
+        <option value="https://blog.edx.org/tag/submission">submission</option>
+      
+        <option value="https://blog.edx.org/tag/technology">technology</option>
+      
+        <option value="https://blog.edx.org/tag/ama">AMA</option>
+      
+        <option value="https://blog.edx.org/tag/bux">BUx</option>
+      
+        <option value="https://blog.edx.org/tag/catalyst">Catalyst</option>
+      
+        <option value="https://blog.edx.org/tag/food-and-nutrition">Food and Nutrition</option>
+      
+        <option value="https://blog.edx.org/tag/ibm">IBM</option>
+      
+        <option value="https://blog.edx.org/tag/psychology">Psychology</option>
+      
+        <option value="https://blog.edx.org/tag/w3c">W3C</option>
+      
+        <option value="https://blog.edx.org/tag/w3cx">W3Cx</option>
+      
+        <option value="https://blog.edx.org/tag/big-data">big data</option>
+      
+        <option value="https://blog.edx.org/tag/computer-programming">computer programming</option>
+      
+        <option value="https://blog.edx.org/tag/electronics">electronics</option>
+      
+        <option value="https://blog.edx.org/tag/health">health</option>
+      
+        <option value="https://blog.edx.org/tag/india">india</option>
+      
+        <option value="https://blog.edx.org/tag/justice">justice</option>
+      
+        <option value="https://blog.edx.org/tag/learning">learning</option>
+      
+        <option value="https://blog.edx.org/tag/machine-learning">machine learning</option>
+      
+        <option value="https://blog.edx.org/tag/spanish">spanish</option>
+      
+        <option value="https://blog.edx.org/tag/wharton">wharton</option>
+      
+        <option value="https://blog.edx.org/tag/ap-courses">AP courses</option>
+      
+        <option value="https://blog.edx.org/tag/arizona-state-university">Arizona State University</option>
+      
+        <option value="https://blog.edx.org/tag/csedweek">CSEdWeek</option>
+      
+        <option value="https://blog.edx.org/tag/caltech">Caltech</option>
+      
+        <option value="https://blog.edx.org/tag/catalystx">CatalystX</option>
+      
+        <option value="https://blog.edx.org/tag/columbia-university">Columbia University</option>
+      
+        <option value="https://blog.edx.org/tag/digital-product-management">Digital Product Management</option>
+      
+        <option value="https://blog.edx.org/tag/etsx">ETSx</option>
+      
+        <option value="https://blog.edx.org/tag/edinburghx">EdinburghX</option>
+      
+        <option value="https://blog.edx.org/tag/fullbridge">Fullbridge</option>
+      
+        <option value="https://blog.edx.org/tag/georgetown">Georgetown</option>
+      
+        <option value="https://blog.edx.org/tag/high-school">High School</option>
+      
+        <option value="https://blog.edx.org/tag/mandarin">Mandarin</option>
+      
+        <option value="https://blog.edx.org/tag/soft-skills">Soft skills</option>
+      
+        <option value="https://blog.edx.org/tag/umgc">UMGC</option>
+      
+        <option value="https://blog.edx.org/tag/upvalencia">UPValencia</option>
+      
+        <option value="https://blog.edx.org/tag/university-of-michigan">University of Michigan</option>
+      
+        <option value="https://blog.edx.org/tag/cloud-computing">cloud computing</option>
+      
+        <option value="https://blog.edx.org/tag/data-analytics">data analytics</option>
+      
+        <option value="https://blog.edx.org/tag/developer">developer</option>
+      
+        <option value="https://blog.edx.org/tag/edx-culture">edX culture</option>
+      
+        <option value="https://blog.edx.org/tag/edx-research">edX research</option>
+      
+        <option value="https://blog.edx.org/tag/html">html</option>
+      
+        <option value="https://blog.edx.org/tag/humanities">humanities</option>
+      
+        <option value="https://blog.edx.org/tag/iimbx">iimbx</option>
+      
+        <option value="https://blog.edx.org/tag/information-technology">information technology</option>
+      
+        <option value="https://blog.edx.org/tag/innovation">innovation</option>
+      
+        <option value="https://blog.edx.org/tag/javascript">javascript</option>
+      
+        <option value="https://blog.edx.org/tag/language">language</option>
+      
+        <option value="https://blog.edx.org/tag/mathematics">mathematics</option>
+      
+        <option value="https://blog.edx.org/tag/philosophy">philosophy</option>
+      
+        <option value="https://blog.edx.org/tag/scratch">scratch</option>
+      
+        <option value="https://blog.edx.org/tag/social-media">social media</option>
+      
+        <option value="https://blog.edx.org/tag/asu">ASU</option>
+      
+        <option value="https://blog.edx.org/tag/amnesty-international">Amnesty International</option>
+      
+        <option value="https://blog.edx.org/tag/astronomy">Astronomy</option>
+      
+        <option value="https://blog.edx.org/tag/certificates">Certificates</option>
+      
+        <option value="https://blog.edx.org/tag/courses">Courses</option>
+      
+        <option value="https://blog.edx.org/tag/davidson">Davidson</option>
+      
+        <option value="https://blog.edx.org/tag/davidson-next">Davidson Next</option>
+      
+        <option value="https://blog.edx.org/tag/eth-zurich">ETH Zurich</option>
+      
+        <option value="https://blog.edx.org/tag/galileo-university">Galileo University</option>
+      
+        <option value="https://blog.edx.org/tag/georgia-tech">Georgia Tech</option>
+      
+        <option value="https://blog.edx.org/tag/html5">HTML5</option>
+      
+        <option value="https://blog.edx.org/tag/hour-of-code">Hour of Code</option>
+      
+        <option value="https://blog.edx.org/tag/imtx">IMTx</option>
+      
+        <option value="https://blog.edx.org/tag/jack-kent-cooke-foundation">Jack Kent Cooke Foundation</option>
+      
+        <option value="https://blog.edx.org/tag/linuxfoundationx">LinuxFoundationX</option>
+      
+        <option value="https://blog.edx.org/tag/product-management">Product Management</option>
+      
+        <option value="https://blog.edx.org/tag/rwth-aachen">RWTH Aachen</option>
+      
+        <option value="https://blog.edx.org/tag/research">Research</option>
+      
+        <option value="https://blog.edx.org/tag/snhu">SNHU</option>
+      
+        <option value="https://blog.edx.org/tag/snhux">SNHUx</option>
+      
+        <option value="https://blog.edx.org/tag/ubc">UBC</option>
+      
+        <option value="https://blog.edx.org/tag/university-of-chicago">University of Chicago</option>
+      
+        <option value="https://blog.edx.org/tag/university-of-texas">University of Texas</option>
+      
+        <option value="https://blog.edx.org/tag/wgux">WGUx</option>
+      
+        <option value="https://blog.edx.org/tag/accessibility">accessibility</option>
+      
+        <option value="https://blog.edx.org/tag/artificial-intelligence">artificial intelligence</option>
+      
+        <option value="https://blog.edx.org/tag/circuits-and-electronics">circuits and electronics</option>
+      
+        <option value="https://blog.edx.org/tag/civil-engineering">civil engineering</option>
+      
+        <option value="https://blog.edx.org/tag/code">code</option>
+      
+        <option value="https://blog.edx.org/tag/college-prep">college prep</option>
+      
+        <option value="https://blog.edx.org/tag/credit-eligible-courses">credit-eligible courses</option>
+      
+        <option value="https://blog.edx.org/tag/delftx">delftx</option>
+      
+        <option value="https://blog.edx.org/tag/economics">economics</option>
+      
+        <option value="https://blog.edx.org/tag/edx-partners">edX Partners</option>
+      
+        <option value="https://blog.edx.org/tag/edx-platform">edX platform</option>
+      
+        <option value="https://blog.edx.org/tag/environment">environment</option>
+      
+        <option value="https://blog.edx.org/tag/environmental-science">environmental science</option>
+      
+        <option value="https://blog.edx.org/tag/environmental-studies">environmental studies</option>
+      
+        <option value="https://blog.edx.org/tag/globalpoverty">globalpoverty</option>
+      
+        <option value="https://blog.edx.org/tag/healthcare">healthcare</option>
+      
+        <option value="https://blog.edx.org/tag/history">history</option>
+      
+        <option value="https://blog.edx.org/tag/human-skills">human skills</option>
+      
+        <option value="https://blog.edx.org/tag/interview">interview</option>
+      
+        <option value="https://blog.edx.org/tag/iux">iux</option>
+      
+        <option value="https://blog.edx.org/tag/learners">learners</option>
+      
+        <option value="https://blog.edx.org/tag/marketing-analytics">marketing analytics</option>
+      
+        <option value="https://blog.edx.org/tag/mexico">mexico</option>
+      
+        <option value="https://blog.edx.org/tag/politics">politics</option>
+      
+        <option value="https://blog.edx.org/tag/poverty">poverty</option>
+      
+        <option value="https://blog.edx.org/tag/resume">resume</option>
+      
+        <option value="https://blog.edx.org/tag/startup">startup</option>
+      
+        <option value="https://blog.edx.org/tag/u-lab">u.lab</option>
+      
+        <option value="https://blog.edx.org/tag/adelaidex">AdelaideX</option>
+      
+        <option value="https://blog.edx.org/tag/babsonx">BabsonX</option>
+      
+        <option value="https://blog.edx.org/tag/back-to-school">Back to School</option>
+      
+        <option value="https://blog.edx.org/tag/biology-and-life-sciences">Biology and Life Sciences</option>
+      
+        <option value="https://blog.edx.org/tag/christmas">Christmas</option>
+      
+        <option value="https://blog.edx.org/tag/climatechange">ClimateChange</option>
+      
+        <option value="https://blog.edx.org/tag/davidson-college">Davidson College</option>
+      
+        <option value="https://blog.edx.org/tag/delft">Delft</option>
+      
+        <option value="https://blog.edx.org/tag/hku">HKU</option>
+      
+        <option value="https://blog.edx.org/tag/imperial-college-london">Imperial College London</option>
+      
+        <option value="https://blog.edx.org/tag/imperialbusinessx">ImperialBusinessX</option>
+      
+        <option value="https://blog.edx.org/tag/k-12">K-12</option>
+      
+        <option value="https://blog.edx.org/tag/kyoto">Kyoto</option>
+      
+        <option value="https://blog.edx.org/tag/linkedin">LinkedIn</option>
+      
+        <option value="https://blog.edx.org/tag/louvain">Louvain</option>
+      
+        <option value="https://blog.edx.org/tag/oxfordx">OxfordX</option>
+      
+        <option value="https://blog.edx.org/tag/personal-development">Personal Development</option>
+      
+        <option value="https://blog.edx.org/tag/platform-news">Platform News</option>
+      
+        <option value="https://blog.edx.org/tag/princeton">Princeton</option>
+      
+        <option value="https://blog.edx.org/tag/qs-rankings">QS Rankings</option>
+      
+        <option value="https://blog.edx.org/tag/qs-world-university-rankings">QS World University Rankings</option>
+      
+        <option value="https://blog.edx.org/tag/rit">RIT</option>
+      
+        <option value="https://blog.edx.org/tag/stem">STEM</option>
+      
+        <option value="https://blog.edx.org/tag/stem-courses">STEM Courses</option>
+      
+        <option value="https://blog.edx.org/tag/self-paced">Self-Paced</option>
+      
+        <option value="https://blog.edx.org/tag/stanford-online">Stanford Online</option>
+      
+        <option value="https://blog.edx.org/tag/teachers">Teachers</option>
+      
+        <option value="https://blog.edx.org/tag/teamwork">Teamwork</option>
+      
+        <option value="https://blog.edx.org/tag/top-courses">Top Courses</option>
+      
+        <option value="https://blog.edx.org/tag/united-nations">United Nations</option>
+      
+        <option value="https://blog.edx.org/tag/user-experience-ux">User Experience (UX)</option>
+      
+        <option value="https://blog.edx.org/tag/wbgx">WBGx</option>
+      
+        <option value="https://blog.edx.org/tag/wageningen">Wageningen</option>
+      
+        <option value="https://blog.edx.org/tag/agile">agile</option>
+      
+        <option value="https://blog.edx.org/tag/agile-methodology">agile methodology</option>
+      
+        <option value="https://blog.edx.org/tag/analytics-skills">analytics skills</option>
+      
+        <option value="https://blog.edx.org/tag/android">android</option>
+      
+        <option value="https://blog.edx.org/tag/apps">apps</option>
+      
+        <option value="https://blog.edx.org/tag/berklee">berklee</option>
+      
+        <option value="https://blog.edx.org/tag/birthday">birthday</option>
+      
+        <option value="https://blog.edx.org/tag/brand">brand</option>
+      
+        <option value="https://blog.edx.org/tag/circuits">circuits</option>
+      
+        <option value="https://blog.edx.org/tag/college-credit">college credit</option>
+      
+        <option value="https://blog.edx.org/tag/credit">credit</option>
+      
+        <option value="https://blog.edx.org/tag/cs50">cs50</option>
+      
+        <option value="https://blog.edx.org/tag/cs50x">cs50x</option>
+      
+        <option value="https://blog.edx.org/tag/data">data</option>
+      
+        <option value="https://blog.edx.org/tag/data-management">data management</option>
+      
+        <option value="https://blog.edx.org/tag/deep-learning">deep learning</option>
+      
+        <option value="https://blog.edx.org/tag/design">design</option>
+      
+        <option value="https://blog.edx.org/tag/edx-courses">edX Courses</option>
+      
+        <option value="https://blog.edx.org/tag/edx-news-announcements">edX News &amp; Announcements</option>
+      
+        <option value="https://blog.edx.org/tag/edtech">edtech</option>
+      
+        <option value="https://blog.edx.org/tag/electricity">electricity</option>
+      
+        <option value="https://blog.edx.org/tag/energy">energy</option>
+      
+        <option value="https://blog.edx.org/tag/entrepreneur">entrepreneur</option>
+      
+        <option value="https://blog.edx.org/tag/ethics">ethics</option>
+      
+        <option value="https://blog.edx.org/tag/excel">excel</option>
+      
+        <option value="https://blog.edx.org/tag/financial-literacy">financial literacy</option>
+      
+        <option value="https://blog.edx.org/tag/fintech">fintech</option>
+      
+        <option value="https://blog.edx.org/tag/global">global</option>
+      
+        <option value="https://blog.edx.org/tag/government">government</option>
+      
+        <option value="https://blog.edx.org/tag/grammar">grammar</option>
+      
+        <option value="https://blog.edx.org/tag/higher-education">higher education</option>
+      
+        <option value="https://blog.edx.org/tag/holiday">holiday</option>
+      
+        <option value="https://blog.edx.org/tag/holidays">holidays</option>
+      
+        <option value="https://blog.edx.org/tag/homeschool">homeschool</option>
+      
+        <option value="https://blog.edx.org/tag/idbx">idbx</option>
+      
+        <option value="https://blog.edx.org/tag/iimb">iimb</option>
+      
+        <option value="https://blog.edx.org/tag/inclusive-leadership">inclusive leadership</option>
+      
+        <option value="https://blog.edx.org/tag/internet-of-things">internet of things</option>
+      
+    </select>
+      <script>
+        $(function(){
+          $('#blog-topics').on('change', function(){
+            var link = $(this).val();
+            if(link != "Filter by topic"){
+              window.location.href = link;
+            }
+          });
+        });
+      </script>
+  <!-- Tags Bar -->
+</div>
+
+
+<div class="blog-post-container">
+<div class="wrapper">
+<main class="blog-post">
+    
+    
+    <div class="post-featured" style="background:url(https://blog.edx.org/hubfs/How%20Is%20Math%20Used%20In%20Computer%20Science.png);background-repeat: no-repeat;background-size: 100%;">
+    </div>
+    
+    
+
+<div class="page-breadcrumbs">
+<ul id="breadcrumblist" itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://blog.edx.org/"><span itemprop="name">edX Blog</span></a><meta itemprop="position" content="1"> </li>
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://blog.edx.org/all"><span itemprop="name">Articles</span></a><meta itemprop="position" content="2"> </li>
+
+
+
+
+
+
+
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://blog.edx.org/tag/career"><span itemprop="name">Career Tips</span></a><meta itemprop="position" content="3"> </li>
+
+
+
+</ul>
+</div>
+
+    
+    <article class="blog-post__body">
+      <div class="post-heading"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">How Is Math Used in Computer Science?</span></h1></div>
+      <div class="post_date-box fontSmall special-font">
+        <p>
+          November 3, 2021  / edX team
+        </p>
+      </div>
+      <div class="post-body-txt"><span id="hs_cos_wrapper_post_body" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="rich_text"><p>At their core, computers are number-crunchers. Just think about the word “computer” — something that computes. Even if you use your laptop to send emails more often than to balance your bank account, there’s math going on inside the machine.&nbsp;</p>
+<!--more--><span style="background-color: transparent; color: #002226; font-size: 20px;">If you aspire to a </span><a href="https://www.edx.org/learn/computer-science" rel="noopener" target="_blank" style="font-size: 20px;">career in computer science</a><span style="background-color: transparent; color: #002226; font-size: 20px;">, you may wonder how much math you need to know to succeed. The answer depends on what you want to do with your computing career, and how advanced you want to get.</span>
+<p><!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-11a06872-b1e3-4fae-877d-ae1144d780eb"><span class="hs-cta-node hs-cta-11a06872-b1e3-4fae-877d-ae1144d780eb" id="hs-cta-11a06872-b1e3-4fae-877d-ae1144d780eb"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/4982103/11a06872-b1e3-4fae-877d-ae1144d780eb" target="_blank" rel="noopener"><img class="hs-cta-img" id="hs-cta-img-11a06872-b1e3-4fae-877d-ae1144d780eb" style="border-width:0px;margin: 0 auto; display: block; margin-top: 20px; margin-bottom: 20px" src="https://no-cache.hubspot.com/cta/default/4982103/11a06872-b1e3-4fae-877d-ae1144d780eb.png" alt="Explore Math Courses" align="middle"></a></span><script charset="utf-8" src="/hs/cta/cta/current.js"></script><script type="text/javascript"> hbspt.cta._relativeUrls=true;hbspt.cta.load(4982103, '11a06872-b1e3-4fae-877d-ae1144d780eb', {"useNewLoader":"true","region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code --></p>
+<h2>Do You Need Math in Computer Science?</h2>
+<p>Because math is a foundational part of computer systems, every programmer and computer scientist needs to have basic mathematical knowledge. The type and level of math you need depends on what areas of computer science you want to work in.&nbsp;</p>
+<p>Some computer science career tracks require only minimal mathematical knowledge. For example, as long as you know basic programming languages and can do simple arithmetic, you can develop basic mobile apps.</p>
+<p>But if you want to go further with your computer science career, perhaps exploring advanced fields like computer security or operating systems, you’ll need to understand some higher-level math concepts. No one expects computer scientists to be mathematicians, but studying high school and college level math can open doors.</p>
+<div class="sp-box">
+<h4><img src="https://blog.edx.org/hubfs/theme%202021/business/assets/images/Subtract.svg" alt="layer" style="/* display: inline-flex;"> <span>"[In CS education] you learn more about data structures and algorithms. That's kind of the core, the math side of computer science."<br></span></h4>
+</div>
+<p>“[In CS education] you learn more about data structures and algorithms,” said <a href="https://www.edx.org/bio/david-joyner" rel="noopener" target="_blank">David Joyner</a>, PhD and executive director of online education for the College of Computing at the Georgia Institute of Technology and instructor for edX’s <a href="https://www.edx.org/professional-certificate/introduction-to-python-programming" rel="noopener" target="_blank">Introduction to Python Programming Professional Certificate program</a>.</p>
+<p>“That's kind of the core, the math side of computer science. Those are very, very important because they give you a deeper knowledge of what developing with computers really is all about."</p>
+<div class="sp-box-bg">
+<div class="rd fontSmall special-font">dive deeper</div>
+<p><span>Math is fundamental to computer science, but an affinity towards math is not a prerequisite for success in the field. For example, the final course in the Python program Joyner is an instructor for, <a href="https://www.edx.org/course/computing-in-python-iv-objects-algorithms" rel="noopener" target="_blank">Computing in Python IV: Objects &amp; Algorithms</a>, covers object-oriented programming, a popular paradigm that Joyner likens to philosophy. “Object oriented programming speaks to my general desire to make people aware that computer science isn't just for the people who were really good at math in high school. It’s an area of programming that has a surprisingly deep conjunction with philosophy,” Joyner said. “I think that's one thing that people often underestimate about careers in computer science, is they are very creative kinds of areas.”</span></p>
+</div>
+<h2>What Kind of Math Is Used in Computer Science?</h2>
+<p>Computer scientists use all different types of math. Those who work with advanced algorithms and matrices, like the kind involved in image recognition for medical diagnostics, need to understand higher-level concepts like differential equations.</p>
+<p>But for aspiring and first year professionals, it’s more important to master number theory and basic equations. Here are some topics to explore.</p>
+<h3>Binary and Hexadecimal Counting</h3>
+<p>The binary number system uses only two digits, 0 and 1, to express all mathematical concepts. Computers use the binary system instead of the more common decimal system, so computer scientists need to know how it works.</p>
+<p>Computers can read binary, but it can be inconvenient for humans to deal with. As an alternative, computer programming has turned to a system called hexadecimal, which uses all nine decimal digits and the letters A through F. It makes more sense to humans and converts electronically to binary.</p>
+<p>Don’t let the unfamiliarity of these languages scare you away. <a href="https://www.edx.org/learn/computer-science" rel="noopener" target="_blank">Computer science programs</a> tend to cover them early on, so you can start practicing right away.</p>
+<h3>Discrete Mathematics</h3>
+<p><a href="https://www.edx.org/learn/discrete-mathematics" rel="noopener" target="_blank">Discrete math</a> is tangible math. It analyzes the relationship between things that are distinct and separate. The concepts of discrete math include:</p>
+<ul>
+<li aria-level="1">Probability</li>
+<li aria-level="1">Combinatorics</li>
+<li aria-level="1">Logic</li>
+<li aria-level="1">Number theory</li>
+<li aria-level="1">Graph theory</li>
+</ul>
+<p>The problem-solving processes of discrete math are the basis of modern computer engineering. They power both simple and complex disciplines such as:</p>
+<ul>
+<li aria-level="1">Computer architecture&nbsp;</li>
+<li aria-level="1">Functional programming</li>
+<li aria-level="1">Distributed systems</li>
+<li aria-level="1">Machine learning and artificial intelligence</li>
+</ul>
+<p>As a computer science professional, you might use discrete math to test out multiple algorithms and learn which is the most efficient. Meanwhile, the logical thinking you develop as a discrete math student will help you to approach programming and development tasks more methodically.</p>
+<h3>Statistics</h3>
+<p>Data has become an increasingly important aspect of scientific computing in the past few years, from machine learning to personalized app performance. This increased reliance on data has made statistics an important topic of study for all computer science students.</p>
+<p>Statistics allow computer programs to deliver accurate generalizations and predictions based on available information. Understanding statistics can make it easier to grasp concepts like:</p>
+<ul>
+<li aria-level="1">Data mining</li>
+<li aria-level="1">Machine learning</li>
+<li aria-level="1">Future modeling</li>
+<li aria-level="1">Speech recognition</li>
+<li aria-level="1">User responsiveness</li>
+<li aria-level="1">Computer graphics analysis</li>
+</ul>
+<p>The more you <a href="https://www.edx.org/learn/statistics" rel="noopener" target="_blank">learn about statistics</a>, the more adept you’ll become at managing and using complex data structures. This lets you write more advanced algorithms and push the envelope in software customization.</p>
+<h3>Linear Algebra</h3>
+<p>Computer science and software engineering rely on algorithms. An algorithm is a formula that takes you from a specific input to the correct output. If that sounds familiar, it may be reminding you of middle school or high school algebra.</p>
+<p>Algebra includes concepts like:</p>
+<ul>
+<li aria-level="1">Exponents</li>
+<li aria-level="1">Polynomials</li>
+<li aria-level="1">Linear equations</li>
+<li aria-level="1">Quadratic equations</li>
+</ul>
+<p>Each of these concepts has real world computer science applications. Understanding exponential relationships can help you to adapt visuals so they appeal to the eye. Solving linear equations helps with analysis of algorithms because it helps you to spot inaccuracies.</p>
+<p>You can get by in software development without knowing much algebra, but learning it can help you to reach greater heights.</p>
+<h3>Calculus</h3>
+<p>If you plan to get a computer science degree, you’ll probably take a calculus course at some point.&nbsp;</p>
+<p>There are two different types of calculus: integral calculus and differential calculus. Together, these disciplines help you to figure out rate of change, which is an important ingredient in many algorithms and programs.</p>
+<p>Differential equations are particularly important. A differential equation calculates how something changes and how fast that happens, so a computer can predict future outputs. This helps with:</p>
+<ul>
+<li aria-level="1">Designing simulations</li>
+<li aria-level="1">Improving problem-solving programs</li>
+<li aria-level="1">Creating effective algorithms</li>
+<li aria-level="1">Developing accurate graphs</li>
+</ul>
+<p>The word “calculus” scares some computer science students, but it’s much less intimidating than most people think. The key is to find a course that will lead you through what you need to know to work in your field.</p>
+<h2>Mathematics and Computer Science: What Do You Need to Get Started?</h2>
+<p>The more math you study, the deeper your understanding of computers will become. But does that mean you have to become a mathematician before you start your computer science studies?</p>
+<p>Absolutely not!</p>
+<p>Today’s computer science educators know that everyone has different backgrounds. They build mathematical learning into their curriculum so that students have the best chance to succeed.</p>
+<div class="sp-box-bg">
+<div class="rd fontSmall special-font">Did you know?</div>
+<p><img src="https://blog.edx.org/hubfs/theme%202021/blog/assets/images/Frame%2021%20(2)%20(1).png" alt="layer"> <span>If you take an edX computer science course, you’ll find mathematical concepts and practice built into your learning. For example, the <a href="https://www.edx.org/course/computing-in-python-i-fundamentals-and-procedural?index=undefined" rel="noopener" target="_blank">Computing in Python I course</a> from Georgia Tech includes curriculum units on variables and mathematical operators, specifically focusing on how these skills work in computing.<br></span></p>
+</div>
+<p>You can get started in computer science with just the math skills you have now, or you can take a course to brush up on what you know and gain more confidence.</p>
+<h2>Getting Started: Exploring Math With edX</h2>
+<p>All computer science professionals need at least some knowledge of math. The computer science courses you’ll find on edX all include some math learning, but some students might still feel like they want some focused math coursework before getting started.</p>
+<p>On the edX platform, you’ll find a variety of math courses relevant to the computer science student. Options include Introductory Linear Algebra, Fundamentals of Statistics, and&nbsp; Pre-University Calculus. <a href="https://www.edx.org/learn/math" rel="noopener" target="_blank">Learn more about edX math courses</a> today, and get yourself started on the fast track to a computer science career.</p>
+<p><!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-11a06872-b1e3-4fae-877d-ae1144d780eb"><span class="hs-cta-node hs-cta-11a06872-b1e3-4fae-877d-ae1144d780eb" id="hs-cta-11a06872-b1e3-4fae-877d-ae1144d780eb"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/4982103/11a06872-b1e3-4fae-877d-ae1144d780eb" target="_blank" rel="noopener"><img class="hs-cta-img" id="hs-cta-img-11a06872-b1e3-4fae-877d-ae1144d780eb" style="border-width:0px;margin: 0 auto; display: block; margin-top: 20px; margin-bottom: 20px" src="https://no-cache.hubspot.com/cta/default/4982103/11a06872-b1e3-4fae-877d-ae1144d780eb.png" alt="Explore Math Courses" align="middle"></a></span><script charset="utf-8" src="/hs/cta/cta/current.js"></script><script type="text/javascript"> hbspt.cta._relativeUrls=true;hbspt.cta.load(4982103, '11a06872-b1e3-4fae-877d-ae1144d780eb', {"useNewLoader":"true","region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code --></p></span></div>
+    </article>
+    
+<div id="hs_cos_wrapper_module_16281695481183" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+</div>
+
+<div class="blog-topics-boxes">
+       
+          <div class="blog-post__tags special-font">
+            <span id="hs_cos_wrapper_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="tag1_layer"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z" /></g></svg></span>
+            
+            
+            <a class="blog-post__tag-link" href="https://blog.edx.org/tag/computer-science">Computer Science</a>
+            
+          
+            
+            <a class="blog-post__tag-link" href="https://blog.edx.org/tag/math">math</a>
+            
+          
+            
+            <a class="blog-post__tag-link" href="https://blog.edx.org/tag/career">Career</a>
+            
+          
+          </div>
+    
+    </div>
+    
+</main>
+
+</div>
+</div>
+
+
+<div class="section-spacing-v bg-white" id="related-articles">
+<div class="wrapper">
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12">
+
+<div class="text-center text-center">
+<div class="item-link"><a href="/?hsLang=en">Back to blog home</a></div>
+<h2>Related Articles</h2>
+</div>
+
+<div class="related-container" id="">
+
+
+
+
+<div class="related-item">
+
+<div class="related_item_image">
+<a href="https://blog.edx.org/chart-a-new-career-direction-with-a-boot-camp?hsLang=en">
+<img class="lazy" data-src="https://programs.edx.org/hubfs/edX_MKTGAD-141616_10-28_hero_desktop_1120x560.jpg" data-srcset="https://programs.edx.org/hubfs/edX_MKTGAD-141616_10-28_hero_desktop_1120x560.jpg" src="https://blog.edx.org/hubfs/edX_MKTGAD-141616_10-28_hero_desktop_1120x560.jpg" alt="Group of boot camp students sit around a table with their computers">
+</a>
+</div>
+
+<div class="related_item_topic">
+
+
+<a class="topic-link special-font title-color" href="https://blog.edx.org/tag/career">Career</a>
+
+<a class="topic-link special-font title-color" href="https://blog.edx.org/tag/boot-camps">Boot Camps</a>
+
+
+<p class="related_item_title"><a href="https://blog.edx.org/chart-a-new-career-direction-with-a-boot-camp?hsLang=en" class="title-color">Chart a New Career Direction with a Boot Camp</a></p>
+<!-- <p class="date">October 28, 2022</p> -->
+
+</div>
+
+</div>
+
+
+<div class="related-item">
+
+<div class="related_item_image">
+<a href="https://blog.edx.org/how-a-coding-boot-camp-helped-this-learner-upskill-fast-kickstart-his-career-and-get-back-on-track-for-college?hsLang=en">
+<img class="lazy" data-src="https://programs.edx.org/hubfs/edX%20HERO%20Andrew%20Rodriguez%20UCF%20Coding%20Boot%20Camp.png" data-srcset="https://programs.edx.org/hubfs/edX%20HERO%20Andrew%20Rodriguez%20UCF%20Coding%20Boot%20Camp.png" src="https://blog.edx.org/hubfs/edX%20HERO%20Andrew%20Rodriguez%20UCF%20Coding%20Boot%20Camp.png" alt="">
+</a>
+</div>
+
+<div class="related_item_topic">
+
+
+<a class="topic-link special-font title-color" href="https://blog.edx.org/tag/stories">Stories</a>
+
+<a class="topic-link special-font title-color" href="https://blog.edx.org/tag/learner-stories">Learner Stories</a>
+
+
+<p class="related_item_title"><a href="https://blog.edx.org/how-a-coding-boot-camp-helped-this-learner-upskill-fast-kickstart-his-career-and-get-back-on-track-for-college?hsLang=en" class="title-color">How a Coding Boot Camp Helped This Learner Upskill Fast, Kickstart His Career, and Get Back on Track for College</a></p>
+<!-- <p class="date">October 17, 2022</p> -->
+
+</div>
+
+</div>
+
+
+<div class="related-item">
+
+<div class="related_item_image">
+<a href="https://blog.edx.org/from-layoff-to-leadership-how-this-boot-camp-graduate-took-charge-of-her-future-to-land-her-dream-marketing-career?hsLang=en">
+<img class="lazy" data-src="https://programs.edx.org/hubfs/_edX%20HERO%20Danielle%20DePaolo%20UCF%20DIgital%20Marketing%20Boot%20Camp.png" data-srcset="https://programs.edx.org/hubfs/_edX%20HERO%20Danielle%20DePaolo%20UCF%20DIgital%20Marketing%20Boot%20Camp.png" src="https://blog.edx.org/hubfs/_edX%20HERO%20Danielle%20DePaolo%20UCF%20DIgital%20Marketing%20Boot%20Camp.png" alt="">
+</a>
+</div>
+
+<div class="related_item_topic">
+
+
+<a class="topic-link special-font title-color" href="https://blog.edx.org/tag/stories">Stories</a>
+
+<a class="topic-link special-font title-color" href="https://blog.edx.org/tag/learner-stories">Learner Stories</a>
+
+
+<p class="related_item_title"><a href="https://blog.edx.org/from-layoff-to-leadership-how-this-boot-camp-graduate-took-charge-of-her-future-to-land-her-dream-marketing-career?hsLang=en" class="title-color">From Layoff to Leadership: How This Boot Camp Graduate Took Charge of Her Future to Land Her Dream Marketing Career</a></p>
+<!-- <p class="date">October 5, 2022</p> -->
+
+</div>
+
+</div>
+
+</div>
+
+<div class="ctabox text-center">
+<a href="https://blog.edx.org/all" class="cta-global">Browse All Articles</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+   <div data-global-resource-path="edX Theme 2021/templates/partials/footer_v2.html"><div id="hs_cos_wrapper_module_16154607678225" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><!--footer start-->
+<div class="footer2">
+   <!--wrapper start-->
+   <div class="wrapper">
+      <div class="content">
+         <!--footer primary section-->
+         <div class="footer-primary row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+               <!--footer logo-->
+              <div class="row">
+               <div class="foot-logo col-lg-6 col-md-6 col-sm-12">
+                  <a href="/?hsLang=en">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <img src="https://blog.edx.org/hubfs/theme%202021/header/assets/images/Logo.svg" alt="Logo" loading="lazy" style="max-width: 100%; height: auto;">
+                  
+                  
+                  
+                  </a>
+               </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                 <div class="social">
+                    <span id="hs_cos_wrapper_module_16154607678225_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16154607678225_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.facebook.com/EdxOnline" role="menuitem" target="_blank" rel="noopener"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://twitter.com/edXOnline" role="menuitem" target="_blank" rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linkedin.com/company/edx" role="menuitem" target="_blank" rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.reddit.com/r/edx" role="menuitem" target="_blank" rel="noopener"><i class="fab  fa-reddit-alien " aria-hidden="true"></i></a></li>
+ </ul>
+</div></span>
+                 </div>
+              </div>
+              </div>
+              </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 footer-nav">
+               <!--footer navigation-->
+              <div class="row">
+                  <div class="nav-box col-lg-3 col-md-3 col-sm-12">
+                     <div class="cat-label">
+                        <h5>edX</h5>
+                     </div>
+                  <span id="hs_cos_wrapper_module_16154607678225_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16154607678225_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://courses.edx.org/login?hs-referral=blog-menu-link&amp;utm_campaign=edX%20Blog&amp;utm_source=edx-blog&amp;utm_medium=referral" role="menuitem" target="_blank" rel="noopener">Sign In</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://courses.edx.org/register?hs-referral=blog-menu-link&amp;utm_campaign=edX%20Blog&amp;utm_source=edx-blog&amp;utm_medium=referral" role="menuitem" target="_blank" rel="noopener">Register</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://business.edx.org" role="menuitem" target="_blank" rel="noopener">edX For Business</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.edx.org/affiliate-program?hs-referral=blog-menu-link" role="menuitem" target="_self">Affliates</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://open.edx.org/?hs-referral=blog-menu-link&amp;utm_campaign=edX%20Blog" role="menuitem" target="_blank" rel="noopener">Open edX</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.edx.org/careers?hs-referral=blog-menu-link" role="menuitem" target="_self">Careers</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://press.edx.org?hs-referral=blog-menu-link&amp;utm_campaign=edX%20Blog" role="menuitem" target="_blank" rel="noopener">News</a></li>
+ </ul>
+</div></span>
+               </div>
+               <!-- box-1-ends-here --->
+               <div class="nav-box col-lg-3 col-md-3 col-sm-12">
+                  <div class="cat-label">
+                        <h5>Connect</h5>
+                     </div>
+                  <span id="hs_cos_wrapper_module_16154607678225_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16154607678225_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu" class="active-branch">
+  <li class="hs-menu-item hs-menu-depth-1 active active-branch" role="none"><a href="https://blog.edx.org" role="menuitem" target="_self">Blog</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://courses.edx.org/support/contact_us?hs-referral=blog-menu-link&amp;utm_campaign=edX%20Blog" role="menuitem" target="_blank" rel="noopener">Contact Us</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://support.edx.org/?hs-referral=blog-menu-link" role="menuitem" target="_blank" rel="noopener">Help Center</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.edx.org/media-kit?hs-referral=blog-menu-link" role="menuitem" target="_blank" rel="noopener">Media Kit</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.edx.org/donate?hs-referral=blog-menu-link" role="menuitem" target="_blank" rel="noopener">Donate</a></li>
+ </ul>
+</div></span>
+               </div>
+               <!-- box-2-ends-here --->
+               <div class="nav-box col-lg-3 col-md-3 col-sm-12">
+                  <div class="cat-label">
+                        <h5>Legal</h5>
+                     </div>
+                  <span id="hs_cos_wrapper_module_16154607678225_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16154607678225_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.edx.org/edx-terms-service?hs-referral=blog-menu-link" role="menuitem" target="_blank" rel="noopener">Terms of Service &amp; Honor Code</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.edx.org/edx-privacy-policy?hs-referral=blog-menu-link" role="menuitem" target="_blank" rel="noopener">Privacy Policy</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.edx.org/accessibility?hs-referral=blog-menu-link" role="menuitem" target="_self">Accessibility Policy</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.edx.org/trademarks?hs-referral=blog-menu-link" role="menuitem" target="_self">Trademark Policy</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.edx.org/sitemap?hs-referral=blog-menu-link" role="menuitem" target="_self">Sitemap</a></li>
+ </ul>
+</div></span>
+               </div>
+               <!-- box-3-here-ends --->
+                <div class="nav-box nav-box_last col-lg-3 col-md-3 col-sm-12">
+                  <div class="cat-label">
+                        <h5>Choose Language</h5>
+                     </div>
+                  <span id="hs_cos_wrapper_module_16154607678225_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16154607678225_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://blog.edx.org/es" role="menuitem" target="_self">Español</a></li>
+ </ul>
+</div></span>
+                  <div class="nav-box-sec">
+                    <!--copyright -->
+                     <div class="copyright fontSmall">
+                        <p>© 2023 edX Inc. All rights reserved. | 深圳市恒宇博科技有限公司 <a href="https://www.beian.miit.gov.cn/" target="_blank" rel="noopener">粤ICP17044299号-2</a></p>
+                     </div>
+                   </div>
+               </div>
+               <!-- box-4-here-ends --->
+              </div>
+              <!--footer navigation ends-->
+            </div>
+         </div>
+         <!--footer primary section ends-->
+         
+      </div>
+   </div>
+   <!-- wrapper-ends-here --->
+</div>
+<!-- footer-ends-here ---></div></div>
+    
+<script>
+(function () {
+    window.addEventListener('load', function () {
+        setTimeout(function () {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/_hcms/perf', true /*async*/);
+            xhr.setRequestHeader("Content-type", "application/json");
+            xhr.onreadystatechange = function () {
+                // do nothing.
+            };
+            var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+            function populateNetworkInfo(name, connection, info) {
+                if (name in connection) {
+                    info[name] = connection[name];
+                }
+            }
+            var networkInfo = {};
+            if (connection) {
+                ['type', 'effectiveType', 'downlink', 'rtt'].forEach(function(name) {
+                    populateNetworkInfo(name, connection, networkInfo);
+                });
+            }
+            var perfData = {
+                url: location.href,
+                portal: 4982103,
+                content: 58879402791,
+                group: -1,
+                connection: networkInfo,
+                timing: performance.timing
+            };
+            xhr.send(JSON.stringify(perfData));
+        }, 3000);  // Execute this 3 seconds after onload.
+    });
+})();
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/template_assets/41359081576/1617983191239/edX_Theme_2021/js/main.min.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+<script src="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/module_assets/43345837867/1643656708656/module_43345837867_site_header_blog.min.js"></script>
+<script defer src="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/template_assets/41402269433/1617983191756/edX_Theme_2021/js/owl_carousel.min.js"></script>
+<script src="https://blog.edx.org/hs-fs/hub/4982103/hub_generated/module_assets/52077186190/1629212413581/module_52077186190_Blog_-_Related_Courses_-_Custom.min.js"></script>
+
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "blog-post"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/blog.edx.org\/how-is-math-used-in-computer-science"]);
+_hsq.push(["setPageId", "58879402791"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 58879402791,
+    "legacyPageId": "58879402791",
+    "contentFolderId": null,
+    "contentGroupId": 37454551910,
+    "abTestId": null,
+    "languageVariantId": 58879402791,
+    "languageCode": "en",
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/4982103.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    ticks: 1675437493423,
+    page_id: 58879402791,
+    
+    content_group_id: 37454551910,
+    portal_id: 4982103,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "blog-post",
+    analytics_page_id: "58879402791",
+    category_id: 3,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.143/js/index.js"></script>
+
+
+
+<div id="fb-root"></div>
+ <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&status=0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ 
+
+
+    
+    
+  
+</body></html>
